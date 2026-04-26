@@ -1,0 +1,36 @@
+.video-player {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+}
+
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.lesson-item {
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.lesson-item:hover {
+  background-color: #f8f9fa;
+}
+
+.lesson-item.active {
+  background-color: #e8f4fd;
+  border-left: 4px solid #0d6efd;
+}
+
+.lesson-item.completed {
+  background-color: #f0fff4;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

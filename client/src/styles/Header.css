@@ -1,0 +1,19 @@
+.navbar {
+  padding: 12px 0;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  letter-spacing: -0.5px;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #555 !important;
+  padding: 0.5rem 0.75rem !important;
+  transition: color 0.15s ease;
+}
+
+.nav-link:hover {
+  color: #667eea !important;
+}

@@ -1,0 +1,26 @@
+.footer {
+  background: #1a1a2e !important;
+}
+
+.footer a {
+  color: #adb5bd;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.social-icons a {
+  color: #adb5bd;
+  transition: color 0.15s ease;
+}
+
+.social-icons a:hover {
+  color: #667eea;
+}
