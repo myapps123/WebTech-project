@@ -18,25 +18,25 @@ const Footer = () => {
               <li><a href="/">Home</a></li>
               <li><a href="/courses">Courses</a></li>
               <li><a href="/instructors">Instructors</a></li>
-              <li><a href="/about">About Us</a></li>
+              <li><a href="/categories">Categories</a></li>
             </ul>
           </Col>
           <Col md={3} className="mb-4">
             <h6>Support</h6>
             <ul className="list-unstyled">
-              <li><a href="#">Help Center</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-              <li><a href="#">Terms of Service</a></li>
+              <li><a href="/courses">Help Center</a></li>
+              <li><a href="/courses">Contact Us</a></li>
+              <li><a href="/courses">Privacy Policy</a></li>
+              <li><a href="/courses">Terms of Service</a></li>
             </ul>
           </Col>
           <Col md={3} className="mb-4">
             <h6>Follow Us</h6>
             <div className="social-icons">
-              <a href="#" className="me-3"><FaFacebook size={24} /></a>
-              <a href="#" className="me-3"><FaTwitter size={24} /></a>
-              <a href="#" className="me-3"><FaLinkedin size={24} /></a>
-              <a href="#" className="me-3"><FaInstagram size={24} /></a>
+              <a href="https://facebook.com" target="_blank" rel="noreferrer" className="me-3"><FaFacebook size={24} /></a>
+              <a href="https://twitter.com" target="_blank" rel="noreferrer" className="me-3"><FaTwitter size={24} /></a>
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="me-3"><FaLinkedin size={24} /></a>
+              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="me-3"><FaInstagram size={24} /></a>
             </div>
           </Col>
         </Row>
